@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raushan Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">                        
+</head>
+
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+<script src="myScript.js"></script>
+
+<script src="https://kit.fontawesome.com/76dd55e5a3.js" crossorigin="anonymous"></script>
+<body>
+    <div id="header" >
+        <div class="container" >
+            <nav>
+                <img src="images/RauLogo.png" class="logo" alt="Logo">
+                <div class="menu-icon" onclick="toggleMenu()">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <div>
+                    <ul class="nav-links" >
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#services">Service</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="content">
+                <div class="header-text">
+                    <p>AI/ML & Data Science Enthusiast</p>
+                    <h1>Hi, I'm <span class="dynamic-name">Raushan Gupta</span></h1>
+                    <div class="marquee">
+                        <p class="marquee-item">Developer</p>
+                        <p class="marquee-item">Designer</p>
+                        <p class="marquee-item">Data Scientist</p>
+                        <p class="marquee-item">AI Enthusiast</p>
+                    </div>
+                    <p class="subtext">Passionate about leveraging data to drive insights and innovation.</p>
+                </div>
+                <div class="carousel">
+                    <button class="carousel-button left">&lt;</button>
+                    <div class="carousel-images">
+                        <img src="images/image1.jpg" alt="Image 1">
+                        <img src="images/image2.jpg" alt="Image 2">
+                        <img src="images/image2.jpg" alt="Image 3">
+                        <img src="images/image2.jpg" alt="Image 4">
+                        <img src="images/image5.jpg" alt="Image 5">
+                    </div>
+                    <button class="carousel-button right">&gt;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ------------------about me--------------------------- -->
+  <section id="About" >
+    <div id="about" style="background-color: #080808;" class="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/raushanpic.jpg" alt="Raushan's Picture" class="profile-pic">
+                </div>
+                <div class="about-col-2">
+                    <h1 style="color: white;">About Me</h1>
+                    <p>My name is <strong>Raushan Kumar Gupta</strong>. I am from <strong>Nepal</strong>. I am a CSE student at <strong>Amrita Vishwa-vidyapeetham, Bangalore</strong>. I am enthusiastic about learning <strong>Data Science, AI/ML</strong>, and more.</p>
+                    <p>I have a strong passion for technology and programming. My areas of interest include:</p>
+                    <ul>
+                        <li>Machine Learning and Artificial Intelligence</li>
+                        <li>Data Analysis and Visualization</li>
+                        <li>Web Development</li>
+                        <li>Software Engineering</li>
+                        <li>Algorithm Design</li>
+                    </ul>
+                    <p>In addition to my technical skills, I am an avid problem-solver and enjoy participating in coding competitions and hackathons. I believe in continuous learning and constantly strive to improve my skills and knowledge.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+    
+
+    <!-- ---------------------------------services--------------------------- -->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h1 class="title">My Services</h1>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3 class="text">Web Development</h3>
+                        <p>From creating stunning websites to developing complex web applications, I offer comprehensive web development services using modern technologies and best practices.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-chart-line"></i>
+                        <h3 class="text">Data Analysis & Visualization</h3>
+                        <p>I specialize in analyzing and visualizing data to uncover valuable insights. Whether it's exploring trends, patterns, or relationships, I provide data-driven solutions to support informed decision-making.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-brain"></i>
+                        <h3 class="text">Machine Learning & AI</h3>
+                        <p>With a strong foundation in machine learning and artificial intelligence, I develop intelligent systems and algorithms to solve complex problems, automate processes, and drive innovation.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-cogs"></i>
+                        <h3 class="text">Software Development</h3>
+                        <p>As a software engineer, I design, develop, and deploy robust software solutions tailored to your needs. From application development to system architecture, I deliver reliable and scalable software products.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-chart-bar"></i>
+                        <h3 class="text">Analysing Stocks</h3>
+                        <p>I can provide you with deep and accurate analysis of stocks listed on NEPSE, helping you make informed investment decisions.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-dna"></i>
+                        <h3 class="text">AI & ML Solutions</h3>
+                        <p>As a computer science student specializing in AI/ML, I develop innovative AI solutions tailored to your needs, from predictive analytics to natural language processing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+<!-- Portfolio Section Start -->
+<section id="portfolio" style="background-color:black ;">
+    <div class="container">
+        <h1 class="section-heading">Portfolio</h1>
+        <div class="button-group">
+            <button id="skills-btn" class="active" onclick="showSection('skills', this)">Skills</button>
+            <button id="experience-btn" onclick="showSection('experience', this)">Experience</button>
+            <button id="certificates-btn" onclick="showSection('certificates', this)">Certificates</button>
+        </div>
+
+        <!-- Skills Section -->
+        <div id="skills" class="portfolio-content active">
+            <h2 class="title">My Skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My creative skills & experiences.</div>
+                    <p>As a computer science student specializing in AI/ML, I have developed a strong foundation in various programming languages and technologies. My skills include C, C++, Java, Python, HTML, CSS, JavaScript, and Data Structures and Algorithms (DSA). I am passionate about applying these skills to solve complex problems and build innovative solutions in the field of artificial intelligence and machine learning.</p>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>C</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="line c"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>C++</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="line cpp"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Java</span>
+                            <span>40%</span>
+                        </div>
+                        <div class="line java"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Python</span>
+                            <span>30%</span>
+                        </div>
+                        <div class="line python"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>55%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>JavaScript</span>
+                            <span>20%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>DSA</span>
+                            <span>42%</span>
+                        </div>
+                        <div class="line dsa"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Experience Section -->
+        <div id="experience" class="portfolio-content" >
+            <h2 class="title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-box">
+                    <div class="timeline-container">
+                        <div class="timeline-logo">
+                            <img src="images/R1.jpg" alt="">
+                        </div>
+                        <h3 class="experience-designation m0 m-blue">Web Developer Intern</h3>
+                        <h4 class="experience-company-name">Company XYZ</h4>
+                        <h5 class="experience-duration m0">Jan 2023 - Jun 2023</h5>
+                        <p>Worked on developing and maintaining company website, implemented new features and fixed bugs.</p>
+                    </div>
+                </div>
+                <div class="timeline-box right">
+                    <div class="timeline-container">
+                        <div class="timeline-logo">
+                            <img src="images/R2.jpg" alt="">
+                        </div>
+                        <h3 class="experience-designation m0 m-blue">Machine Learning Intern</h3>
+                        <h4 class="experience-company-name">Company ABC</h4>
+                        <h5 class="experience-duration m0">Jul 2023 - Dec 2023</h5>
+                        <p>Developed machine learning models for predictive analysis, optimized algorithms for better performance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Certificates Section -->
+        <!-- Certificates Section -->
+        <div id="certificates" class="portfolio-content">
+            <h2 class="title">Certificates</h2>
+            <div class="certificate-gallery">
+                <!-- Certificate thumbnails will be dynamically generated here -->
+            </div>
+        </div>
+
+        <!-- Certificate Popup -->
+        <div id="certificate-popup" class="popup">
+            <div class="popup-content">
+                <span class="close" onclick="closeCertificatePopup()">&times;</span>
+                <img id="certificate-img" src="" alt="Certificate">
+            </div>
+        </div>
+
+
+
+
+        <!-- Certificates Section -->
+        <!-- <div id="certificates" class="portfolio-content">
+            <h2 class="title">Certificates</h2>
+            <div class="certificate-gallery">
+                <img src="images/cert1.jpg" alt="Certificate 1">
+                <img src="images/cert2.jpg" alt="Certificate 2">
+                <img src="images/cert3.jpg" alt="Certificate 3">
+                <img src="images/cert4.jpg" alt="Certificate 4">
+            </div>
+        </div> -->
+    </div>
+</section>
+<!-- Portfolio Section End -->
+
+    
+    
+    <!-- --------------------------------------------------------------------------------------------------------- -->
+    <section id="my-projects">
+        <h2>My Projects</h2>
+        <div class="project-carousel">
+            <div class="carousel-container">
+                <div class="project-card">
+                    <a href="http://example.com/project1" target="_blank">
+                        <img src="images/work-1.png" alt="Project 1">
+                        <div class="project-info">
+                            <h3>Project 1</h3>
+                            <p>Description of Project 1</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="project-card">
+                    <a href="http://example.com/project2" target="_blank">
+                        <img src="images/work-2.png" alt="Project 2">
+                        <div class="project-info">
+                            <h3>Project 2</h3>
+                            <p>Description of Project 2</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="project-card">
+                    <a href="http://example.com/project3" target="_blank">
+                        <img src="images/work-3.png" alt="Project 3">
+                        <div class="project-info">
+                            <h3>Project 3</h3>
+                            <p>Description of Project 3</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="project-card">
+                    <a href="http://example.com/project4" target="_blank">
+                        <img src="images/work-1.png" alt="Project 4">
+                        <div class="project-info">
+                            <h3>Project 4</h3>
+                            <p>Description of Project 4</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- Add more project cards as needed -->
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="contact" style="background-color: #1c1b1b;"                >
+        <h1 class="section-heading mb50px">
+            <span>
+                <i class="fa-solid fa-address-card"></i>
+            </span>
+            <span>Contact</span>
+        </h1>
+        <div id="contact-container" style="padding: 100px 20px;">
+            <div id="contact-form-container">
+                <form action="" id="contact-form">
+                    <input type="text" id="input-name" placeholder="Your Name">
+                    <input type="text" required id="input-email" placeholder="Your Email">
+                    <textarea name="input-message" id="input-message" cols="40" rows="2" placeholder="Message"></textarea>
+                    <button class="sub-btn" type="submit">SEND MESSAGE</button>
+                </form>
+
+            </div>
+            <div id="my-details-container">
+                <h3>Get in touch</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, magni ipsum temporibus eius fuga impedit enim exercitationem labore, quae dignissimos quo odio aperiam debitis vel nulla ducimus assumenda! Aliquid, quam.</p>
+                <h3>My Address</h3>
+                <div class="my-details-info-container">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Birjung-16 parsa, Nepal</span>
+                </div>
+                <div class="my-details-info-container">
+                    <i class="fa-regular fa-mobile"></i>
+                    <span>977-9824285589 || +91-8897018699</span>
+                </div>
+                <div class="my-details-info-container">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>raushang714@gmail.com</span>
+                </div>
+            </div>
+        </div>
+        <div class="text-center social-icons">
+            <ul class="horizontal-list">
+                <li> <a href=""> <i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href=""> <i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href=""> <i class="fa-brands fa-stack-overflow"></i></a></li>
+                <li><a href=""> <i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+            </ul>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
